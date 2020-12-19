@@ -1,0 +1,54 @@
+@import 'blocks/fonts.css';
+html, body {height: 100%;}
+
+body {padding: 0; margin: 0; display: block; scroll-behavior: smooth;}
+* {transition: 0.1s ease-in-out; font-family: "Montserrat", sans-serif;}
+button:focus {outline: none;}
+
+#main-block {
+	background-color: goldenrod;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#copy-color {
+	width: 170px;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 8px;
+	font-size: 18pt;
+	letter-spacing: 1px;
+
+	box-shadow: 1px 5px 6px #666666;
+	transform: translateY(0px);
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	user-select: none;
+}
+#copy-color:active {
+	transform: translateY(8px);
+	box-shadow: 0px 0px 0px transparent;
+}
+
+.color-code-blc {text-align: center;}
+#color-code-name {
+	border: 2px solid transparent;
+	border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	box-shadow: 1px 4px 10px #666666;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 22pt;
+	letter-spacing: 1px;
+
+	display: inline-block;
+	position: relative;
+	top: 160px;
+}
+
+
